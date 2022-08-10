@@ -1,0 +1,32 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+  color: white;
+}
+.container-fluid {
+  display: 'flex' !important;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.nofity-form {
+  justify-content: center;
+  align-items: center;
+}
+.nofity-form .text {
+  justify-content: center;
+  align-items: center;
+}
+.nofity-form form {
+  align-items: center;
+  background: #fff;
+  padding: 24px;
+  text-align: left;
+  color: #303030;
+}
